@@ -1,0 +1,487 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+  background-image: url('er.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.Sizetext 
+{
+  position: absolute;
+  top: 86%;
+  left: 11%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  color: #fff;
+  font-weight: bold;
+  z-index: 10002;
+}
+
+
+.Sizetext1 
+{
+  position: absolute;
+  top: 89%;
+  left: 11%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+  color: #fff;
+  z-index: 10002;
+}
+
+.Chain 
+{
+  position: absolute;
+  top: 93%;
+  left: 11%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.9em;
+  color: #fff;
+font-weight: bold;
+  z-index: 10002;
+}
+
+.Chainname 
+{
+  position: absolute;
+  top: 96%;
+  left: 11%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  color: #fff;
+  z-index: 10002;
+}
+
+.Brokes 
+{
+  position: absolute;
+  top: 86%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  color: #fff;
+font-weight: bold;
+  z-index: 10002;
+}
+
+.Brokesname 
+{
+  position: absolute;
+  top: 89%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  color: #fff;
+  z-index: 10002;
+}
+
+.Bars 
+{
+  position: absolute;
+  top: 93%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  color: #fff;
+font-weight: bold;
+  z-index: 10002;
+}
+
+.Barsname 
+{
+  position: absolute;
+  top: 96%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  color: #fff;
+  z-index: 10002;
+}
+
+.ShiftL 
+{
+  position: absolute;
+  top: 86%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  color: #fff;
+font-weight: bold;
+  z-index: 10002;
+}
+
+.ShiftLname
+ {
+  position: absolute;
+  top: 89%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  color: #fff;
+  z-index: 10002;
+}
+
+.Wheels 
+{
+  position: absolute;
+  top: 93%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  color: #fff;
+font-weight: bold;
+  z-index: 10002;
+}
+
+.Wheelsname 
+{
+  position: absolute;
+  top: 96%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  color: #fff;
+  z-index: 10002;
+}
+
+.Crankset 
+{
+  position: absolute;
+  top: 86%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  color: #fff;
+font-weight: bold;
+  z-index: 10002;
+}
+
+.Cranksetname 
+{
+  position: absolute;
+  top: 89%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  color: #fff;
+  z-index: 10002;
+}
+
+.Tyres 
+{
+  position: absolute;
+  top: 93%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  color: #fff;
+font-weight: bold;
+  z-index: 10002;
+}
+
+.Tyresname 
+{
+  position: absolute;
+  top: 96%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8em;
+  color: #fff;
+  z-index: 10002;
+}
+
+
+
+#dimka-img 
+{
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0) invert(1);
+}
+
+.content 
+{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.square 
+{
+  width: 80px;
+  height: 30px;
+  background-color: #BC2338;
+  border-radius: 10px;
+  position: absolute;
+  top: 150px;
+  right: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square:hover 
+{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.square-text 
+{
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.menu 
+{
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  width: 40px;
+  height: 40px;
+  filter: invert(100%);
+  transition: transform 0.3s ease;
+}
+
+.menu:hover 
+{
+  transform: scale(1.2);
+}
+
+.raleway-text
+ {
+  text-align: left;
+  position: absolute;
+  top: 160px;
+  right: 115px;
+  font-size: 2.5em;
+  margin-bottom: 1px;
+  font-weight: 200;
+}
+
+@media (max-width: 768px) 
+{
+  .raleway-text {
+    text-align: center;
+    position: static;
+    margin-top: 20px;
+  }
+}
+
+.carbon-text 
+{
+  text-align: left;
+  position: absolute;
+  top: 440px;
+  left: 1050px;
+  font-size: 0.9em;
+  font-weight: 300;
+  color: #808080;
+  line-height: 1.5;
+  transition: color 0.3s ease;
+}
+
+.carbon-text:hover
+ {
+  color: #FFFF;
+}
+
+.carbon-text p 
+{
+  margin: 0;
+}
+
+body::after 
+{
+  content: "";
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  z-index: 9999;
+  border-radius: 20px;
+}
+
+body 
+{
+  margin-bottom: 150px;
+}
+
+.mid-white-strip 
+{
+  position: fixed;
+  top: 45%;
+  left: 4%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 20%;
+  background-color: #808080;
+  border-radius: 50px;
+  z-index: 9998;
+  animation: pulse 5s infinite alternate;
+}
+
+@keyframes pulse 
+{
+  from {
+    height: 20%;
+  }
+  to {
+    height: 10%;
+  }
+}
+
+.blurred-strip 
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  z-index: 9999;
+  border-radius: 20px;
+}
+
+.centered-image 
+{
+  position: absolute;
+  top: 91%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  z-index: 10000;
+  transition: transform 0.3s ease, top 0.3s ease;
+}
+
+.centered-image:hover 
+{
+  transform: translate(-50%, -50%) scale(1.5);
+  top: 80%;
+}
+
+@media (max-width: 768px)
+ {
+  .centered-image 
+{
+    width: 80px;
+  }
+}
+
+#typ-img 
+{
+  position: absolute;
+  top: 91%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  z-index: 10000;
+  transition: transform 0.3s ease, top 0.3s ease;
+}
+
+#typ-img:hover 
+{
+  transform: translate(-100%, -50%) scale(1.5);
+  top: 80%;
+}
+
+#oi-img 
+{
+  position: absolute;
+  top: 91%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  z-index: 10000;
+  transition: transform 0.3s ease, top 0.3s ease;
+}
+
+#oi-img:hover
+ {
+  transform: translate(-50%, -50%) scale(1.5);
+  top: 80%;
+}
+
+.rotated-text 
+{
+  color: #fff;
+  font-size: 1.2em;
+  position: absolute;
+  top: 90%;
+  left: 3%;
+  transform: translate(-50%, -50%) rotate(180deg);
+  writing-mode: vertical-rl;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+font-weight: bold;
+  z-index: 10001;
+}
+
+.rotated-text::before 
+{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 20px;
+}
+
